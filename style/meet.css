@@ -1,0 +1,126 @@
+.meet {
+    margin-top: 132px;
+    padding-left: calc(50% - 609px);
+    padding-bottom: 115px;
+}
+
+.meet__top_heading {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 55px;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.text__small {
+    max-width: 450px;
+    padding-bottom: 37px;
+}
+
+.text__big {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.meet__text {
+    margin-top: 34px;
+}
+
+.line {
+    width: 132px;
+    height: 5px;
+    background-color: #FF2D2D;
+}
+
+.meet__person {
+    height: 460px;
+    width: 322px;
+}
+.meet__content {
+    margin-top: 66px;
+    display: flex;
+    gap: 75px;
+}
+
+.meet__heading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 0.2753px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.meet__links {
+    display: flex;
+    gap: 28px;
+    flex-wrap: wrap;
+}
+
+.meet__link {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.9px;
+    color: #000000;
+}
+
+.meet__link:hover {
+    text-decoration: underline;
+}
+
+.meet__peoples {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-top: 47px;
+}
+
+.people {
+    width: 196px;
+    height: 216px; 
+}
+
+.meet__people {
+    display: flex;
+    position: relative;
+    /* background: #FF3F40; */
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    overflow: hidden;
+    font-size: 170px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.meet__people:hover .meet__name-box {
+    left: 0;
+}
+
+.meet__name-box {
+    background: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    transition: left .3s;
+}
+
+.meet__person-name {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.1652px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}

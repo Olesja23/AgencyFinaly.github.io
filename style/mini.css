@@ -1,0 +1,16 @@
+@media (max-width: 376px) {
+    .title {
+        font-size: 28px;
+    }
+    .get__contacts-text {
+        display: contents;
+    }
+
+    .crutch {
+        display: initial;
+    }
+
+    .products__links {
+        gap: 8px;
+    }
+}
